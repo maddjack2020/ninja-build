@@ -1,0 +1,593 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ninja
+Upstream-Contact: <preferred name and address to reach the upstream project>
+Source: <url://example.com>
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     configure.py
+           misc/manifest_fuzzer.cc
+           misc/measure.py
+           misc/ninja_syntax.py
+           misc/ninja_syntax_test.py
+           misc/oss-fuzz/build.sh
+           src/browse.cc
+           src/browse.h
+           src/browse.py
+           src/build.cc
+           src/build.h
+           src/build_log.cc
+           src/build_log.h
+           src/build_log_perftest.cc
+           src/build_log_test.cc
+           src/build_test.cc
+           src/canon_perftest.cc
+           src/clean.cc
+           src/clean.h
+           src/clean_test.cc
+           src/clparser.cc
+           src/clparser.h
+           src/clparser_perftest.cc
+           src/clparser_test.cc
+           src/debug_flags.cc
+           src/debug_flags.h
+           src/depfile_parser.cc
+           src/depfile_parser.h
+           src/depfile_parser.in.cc
+           src/depfile_parser_perftest.cc
+           src/depfile_parser_test.cc
+           src/deps_log.cc
+           src/deps_log.h
+           src/deps_log_test.cc
+           src/disk_interface.cc
+           src/disk_interface.h
+           src/disk_interface_test.cc
+           src/dyndep.cc
+           src/dyndep.h
+           src/dyndep_parser.cc
+           src/dyndep_parser.h
+           src/dyndep_parser_test.cc
+           src/edit_distance.cc
+           src/edit_distance.h
+           src/edit_distance_test.cc
+           src/eval_env.cc
+           src/eval_env.h
+           src/exit_status.h
+           src/gen_doxygen_mainpage.sh
+           src/graph.cc
+           src/graph.h
+           src/graph_test.cc
+           src/graphviz.cc
+           src/graphviz.h
+           src/hash_collision_bench.cc
+           src/hash_map.h
+           src/includes_normalize-win32.cc
+           src/includes_normalize.h
+           src/includes_normalize_test.cc
+           src/json.cc
+           src/json.h
+           src/json_test.cc
+           src/lexer.cc
+           src/lexer.h
+           src/lexer.in.cc
+           src/lexer_test.cc
+           src/line_printer.cc
+           src/line_printer.h
+           src/load_status.h
+           src/manifest_parser.cc
+           src/manifest_parser.h
+           src/manifest_parser_test.cc
+           src/metrics.cc
+           src/metrics.h
+           src/minidump-win32.cc
+           src/missing_deps.cc
+           src/missing_deps.h
+           src/missing_deps_test.cc
+           src/msvc_helper-win32.cc
+           src/msvc_helper.h
+           src/msvc_helper_main-win32.cc
+           src/msvc_helper_test.cc
+           src/ninja.cc
+           src/ninja_test.cc
+           src/parser.cc
+           src/parser.h
+           src/state.cc
+           src/state.h
+           src/state_test.cc
+           src/status.cc
+           src/status.h
+           src/status_test.cc
+           src/string_piece.h
+           src/string_piece_util.cc
+           src/string_piece_util.h
+           src/string_piece_util_test.cc
+           src/subprocess-posix.cc
+           src/subprocess-win32.cc
+           src/subprocess.h
+           src/subprocess_test.cc
+           src/test.cc
+           src/test.h
+           src/timestamp.h
+           src/util.cc
+           src/util.h
+           src/util_test.cc
+           src/version.cc
+           src/version.h
+           src/win32port.h
+Copyright: 2001-2021 Google Inc.
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     .clang-tidy
+           .editorconfig
+           .github/workflows/linux.yml
+           .github/workflows/macos.yml
+           .github/workflows/windows.yml
+           .gitignore
+           CMakeLists.txt
+           CONTRIBUTING.md
+           README.md
+           RELEASING
+           appveyor.yml
+           doc/README.md
+           doc/doxygen.config
+           doc/style.css
+           misc/afl-fuzz-tokens/kw_build
+           misc/afl-fuzz-tokens/kw_default
+           misc/afl-fuzz-tokens/kw_include
+           misc/afl-fuzz-tokens/kw_pool
+           misc/afl-fuzz-tokens/kw_rule
+           misc/afl-fuzz-tokens/kw_subninja
+           misc/afl-fuzz-tokens/misc_a
+           misc/afl-fuzz-tokens/misc_b
+           misc/afl-fuzz-tokens/misc_colon
+           misc/afl-fuzz-tokens/misc_cont
+           misc/afl-fuzz-tokens/misc_dollar
+           misc/afl-fuzz-tokens/misc_eq
+           misc/afl-fuzz-tokens/misc_indent
+           misc/afl-fuzz-tokens/misc_pipe
+           misc/afl-fuzz-tokens/misc_pipepipe
+           misc/afl-fuzz-tokens/misc_space
+           misc/afl-fuzz/build.ninja
+           misc/ci.py
+           misc/inherited-fds.ninja
+           misc/long-slow-build.ninja
+           misc/oss-fuzz/sample_ninja_build
+           misc/output_test.py
+           misc/packaging/ninja.spec
+           misc/packaging/rpmbuild.sh
+           misc/write_fake_manifests.py
+           src/getopt.h
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+Files:     src/inline.sh
+Copyright: 2001 Google Inc.
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ This quick script converts a text file into an #include-able header.
+ It expects the name of the variable as its first argument, and reads
+ stdin and writes stdout.
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     misc/ninja-mode.el
+Copyright: 2011 Google Inc.
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ Commentary:
+ .
+ Simple emacs mode for editing .ninja files.
+ Just some syntax highlighting for now.
+ .
+ Code:
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     .clang-format
+Copyright: 2014 Google Inc.
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ This isn't meant to be authoritative, but it's good enough to be useful.
+ Still use your best judgement for formatting decisions: clang-format
+ sometimes makes strange choices.
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     src/manifest_parser_perftest.cc
+Copyright: 2014 Google Inc.
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ Tests manifest parser performance.  Expects to be run in ninja's root
+ directory.
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     misc/bash-completion
+Copyright: 2011 Google Inc.
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ Add the following to your .bashrc to tab-complete ninja targets
+ . path/to/ninja/misc/bash-completion
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     misc/zsh-completion
+Copyright: 2011 Google Inc.
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ Add the following to your .zshrc to tab-complete ninja targets
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     src/getopt.c
+Copyright: __NO_COPYRIGHT__ in: src/getopt.c
+License:   __UNKNOWN__
+ DESCRIPTION:
+ .
+ The getopt() function parses the command line arguments.  Its arguments argc
+ and argv are the argument count and array as passed to the main() function
+ on program invocation.  The argument optstring is a list of available option
+ characters.  If such a character is followed by a colon (`:'), the option
+ takes an argument, which is placed in optarg.  If such a character is
+ followed by two colons, the option takes an optional argument, which is
+ placed in optarg.  If the option does not take an argument, optarg is NULL.
+ .
+ The external variable optind is the index of the next array element of argv
+ to be processed; it communicates from one call to the next which element to
+ process.
+
+Files:     doc/manual.asciidoc
+Copyright: __NO_COPYRIGHT__ in: doc/manual.asciidoc
+License:   __UNKNOWN__
+ design is quite clever.
+ .
+ Ninja's benefit comes from using it in conjunction with a smarter
+ meta-build system.
+ .
+ https://gn.googlesource.com/gn/[gn]:: The meta-build system used to
+ generate build files for Google Chrome and related projects (v8,
+ node.js), as well as Google Fuchsia.  gn can generate Ninja files for
+ all platforms supported by Chrome.
+ .
+ https://cmake.org/[CMake]:: A widely used meta-build system that
+ can generate Ninja files on Linux as of CMake version 2.8.8.  Newer versions
+ of CMake support generating Ninja files on Windows and Mac OS X too.
+ .
+ https://github.com/ninja-build/ninja/wiki/List-of-generators-producing-ninja-build-files[others]:: Ninja ought to fit perfectly into other meta-build software
+ like https://premake.github.io/[premake].  If you do this work,
+ please let us know!
+ .
+ Running Ninja
+ ~~~~~~~~~~~~~
+ .
+ Run `ninja`.  By default, it looks for a file named `build.ninja` in
+ the current directory and builds all out-of-date targets.  You can
+ specify which targets (files) to build as command line arguments.
+ .
+ There is also a special syntax `target^` for specifying a target
+ as the first output of some rule containing the source you put in
+ the command line, if one exists. For example, if you specify target as
+ `foo.c^` then `foo.o` will get built (assuming you have those targets
+ in your build files).
+ .
+ `ninja -h` prints help output.  Many of Ninja's flags intentionally
+ match those of Make; e.g `ninja -C build -j 20` changes into the
+ `build` directory and runs 20 build commands in parallel.  (Note that
+ Ninja defaults to running commands in parallel anyway, so typically
+ you don't need to pass `-j`.)
+ .
+ Environment variables
+ ~~~~~~~~~~~~~~~~~~~~~
+ .
+ Ninja supports one environment variable to control its behavior:
+
+Files:     misc/ninja.vim
+Copyright: __NO_COPYRIGHT__ in: misc/ninja.vim
+License:   __UNKNOWN__
+ Version 1.4 of this script is in the upstream vim repository and will be
+ included in the next vim release. If you change this, please send your change
+ upstream.
+ .
+ ninja lexer and parser are at
+ https://github.com/ninja-build/ninja/blob/master/src/lexer.in.cc
+
+#----------------------------------------------------------------------------
+# xml and html files (skipped):
+#         doc/dblatex.xsl
+#         doc/docbook.xsl
+#         windows/ninja.manifest
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.
+
+#----------------------------------------------------------------------------
+# License file: COPYING
+ .
+                                  Apache License
+                            Version 2.0, January 2010
+                         http://www.apache.org/licenses/
+ .
+    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+ .
+    1. Definitions.
+ .
+       "License" shall mean the terms and conditions for use, reproduction,
+       and distribution as defined by Sections 1 through 9 of this document.
+ .
+       "Licensor" shall mean the copyright owner or entity authorized by
+       the copyright owner that is granting the License.
+ .
+       "Legal Entity" shall mean the union of the acting entity and all
+       other entities that control, are controlled by, or are under common
+       control with that entity. For the purposes of this definition,
+       "control" means (i) the power, direct or indirect, to cause the
+       direction or management of such entity, whether by contract or
+       otherwise, or (ii) ownership of fifty percent (50%) or more of the
+       outstanding shares, or (iii) beneficial ownership of such entity.
+ .
+       "You" (or "Your") shall mean an individual or Legal Entity
+       exercising permissions granted by this License.
+ .
+       "Source" form shall mean the preferred form for making modifications,
+       including but not limited to software source code, documentation
+       source, and configuration files.
+ .
+       "Object" form shall mean any form resulting from mechanical
+       transformation or translation of a Source form, including but
+       not limited to compiled object code, generated documentation,
+       and conversions to other media types.
+ .
+       "Work" shall mean the work of authorship, whether in Source or
+       Object form, made available under the License, as indicated by a
+       copyright notice that is included in or attached to the work
+       (an example is provided in the Appendix below).
+ .
+       "Derivative Works" shall mean any work, whether in Source or Object
+       form, that is based on (or derived from) the Work and for which the
+       editorial revisions, annotations, elaborations, or other modifications
+       represent, as a whole, an original work of authorship. For the purposes
+       of this License, Derivative Works shall not include works that remain
+       separable from, or merely link (or bind by name) to the interfaces of,
+       the Work and Derivative Works thereof.
+ .
+       "Contribution" shall mean any work of authorship, including
+       the original version of the Work and any modifications or additions
+       to that Work or Derivative Works thereof, that is intentionally
+       submitted to Licensor for inclusion in the Work by the copyright owner
+       or by an individual or Legal Entity authorized to submit on behalf of
+       the copyright owner. For the purposes of this definition, "submitted"
+       means any form of electronic, verbal, or written communication sent
+       to the Licensor or its representatives, including but not limited to
+       communication on electronic mailing lists, source code control systems,
+       and issue tracking systems that are managed by, or on behalf of, the
+       Licensor for the purpose of discussing and improving the Work, but
+       excluding communication that is conspicuously marked or otherwise
+       designated in writing by the copyright owner as "Not a Contribution."
+ .
+       "Contributor" shall mean Licensor and any individual or Legal Entity
+       on behalf of whom a Contribution has been received by Licensor and
+       subsequently incorporated within the Work.
+ .
+    2. Grant of Copyright License. Subject to the terms and conditions of
+       this License, each Contributor hereby grants to You a perpetual,
+       worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+       copyright license to reproduce, prepare Derivative Works of,
+       publicly display, publicly perform, sublicense, and distribute the
+       Work and such Derivative Works in Source or Object form.
+ .
+    3. Grant of Patent License. Subject to the terms and conditions of
+       this License, each Contributor hereby grants to You a perpetual,
+       worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+       (except as stated in this section) patent license to make, have made,
+       use, offer to sell, sell, import, and otherwise transfer the Work,
+       where such license applies only to those patent claims licensable
+       by such Contributor that are necessarily infringed by their
+       Contribution(s) alone or by combination of their Contribution(s)
+       with the Work to which such Contribution(s) was submitted. If You
+       institute patent litigation against any entity (including a
+       cross-claim or counterclaim in a lawsuit) alleging that the Work
+       or a Contribution incorporated within the Work constitutes direct
+       or contributory patent infringement, then any patent licenses
+       granted to You under this License for that Work shall terminate
+       as of the date such litigation is filed.
+ .
+    4. Redistribution. You may reproduce and distribute copies of the
+       Work or Derivative Works thereof in any medium, with or without
+       modifications, and in Source or Object form, provided that You
+       meet the following conditions:
+ .
+       (a) You must give any other recipients of the Work or
+           Derivative Works a copy of this License; and
+ .
+       (b) You must cause any modified files to carry prominent notices
+           stating that You changed the files; and
+ .
+       (c) You must retain, in the Source form of any Derivative Works
+           that You distribute, all copyright, patent, trademark, and
+           attribution notices from the Source form of the Work,
+           excluding those notices that do not pertain to any part of
+           the Derivative Works; and
+ .
+       (d) If the Work includes a "NOTICE" text file as part of its
+           distribution, then any Derivative Works that You distribute must
+           include a readable copy of the attribution notices contained
+           within such NOTICE file, excluding those notices that do not
+           pertain to any part of the Derivative Works, in at least one
+           of the following places: within a NOTICE text file distributed
+           as part of the Derivative Works; within the Source form or
+           documentation, if provided along with the Derivative Works; or,
+           within a display generated by the Derivative Works, if and
+           wherever such third-party notices normally appear. The contents
+           of the NOTICE file are for informational purposes only and
+           do not modify the License. You may add Your own attribution
+           notices within Derivative Works that You distribute, alongside
+           or as an addendum to the NOTICE text from the Work, provided
+           that such additional attribution notices cannot be construed
+           as modifying the License.
+ .
+       You may add Your own copyright statement to Your modifications and
+       may provide additional or different license terms and conditions
+       for use, reproduction, or distribution of Your modifications, or
+       for any such Derivative Works as a whole, provided Your use,
+       reproduction, and distribution of the Work otherwise complies with
+       the conditions stated in this License.
+ .
+    5. Submission of Contributions. Unless You explicitly state otherwise,
+       any Contribution intentionally submitted for inclusion in the Work
+       by You to the Licensor shall be under the terms and conditions of
+       this License, without any additional terms or conditions.
+       Notwithstanding the above, nothing herein shall supersede or modify
+       the terms of any separate license agreement you may have executed
+       with Licensor regarding such Contributions.
+ .
+    6. Trademarks. This License does not grant permission to use the trade
+       names, trademarks, service marks, or product names of the Licensor,
+       except as required for reasonable and customary use in describing the
+       origin of the Work and reproducing the content of the NOTICE file.
+ .
+    7. Disclaimer of Warranty. Unless required by applicable law or
+       agreed to in writing, Licensor provides the Work (and each
+       Contributor provides its Contributions) on an "AS IS" BASIS,
+       WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+       implied, including, without limitation, any warranties or conditions
+       of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+       PARTICULAR PURPOSE. You are solely responsible for determining the
+       appropriateness of using or redistributing the Work and assume any
+       risks associated with Your exercise of permissions under this License.
+ .
+    8. Limitation of Liability. In no event and under no legal theory,
+       whether in tort (including negligence), contract, or otherwise,
+       unless required by applicable law (such as deliberate and grossly
+       negligent acts) or agreed to in writing, shall any Contributor be
+       liable to You for damages, including any direct, indirect, special,
+       incidental, or consequential damages of any character arising as a
+       result of this License or out of the use or inability to use the
+       Work (including but not limited to damages for loss of goodwill,
+       work stoppage, computer failure or malfunction, or any and all
+       other commercial damages or losses), even if such Contributor
+       has been advised of the possibility of such damages.
+ .
+    9. Accepting Warranty or Additional Liability. While redistributing
+       the Work or Derivative Works thereof, You may choose to offer,
+       and charge a fee for, acceptance of support, warranty, indemnity,
+       or other liability obligations and/or rights consistent with this
+       License. However, in accepting such obligations, You may act only
+       on Your own behalf and on Your sole responsibility, not on behalf
+       of any other Contributor, and only if You agree to indemnify,
+       defend, and hold each Contributor harmless for any liability
+       incurred by, or claims asserted against, such Contributor by reason
+       of your accepting any such warranty or additional liability.
+ .
+    END OF TERMS AND CONDITIONS
+ .
+    APPENDIX: How to apply the Apache License to your work.
+ .
+       To apply the Apache License to your work, attach the following
+       boilerplate notice, with the fields enclosed by brackets "[]"
+       replaced with your own identifying information. (Don't include
+       the brackets!)  The text should be enclosed in the appropriate
+       comment syntax for the file format. We also recommend that a
+       file or class name and description of purpose be included on the
+       same "printed page" as the copyright notice for easier
+       identification within third-party archives.
+ .
+    Copyright [yyyy] [name of copyright owner]
+ .
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+ .
+        http://www.apache.org/licenses/LICENSE-2.0
+ .
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.

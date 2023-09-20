@@ -1,0 +1,17 @@
+Source: ninja
+Section: unknown
+Priority: optional
+Maintainer: Jackson Hansen <madjack971@bsdmail.com>
+Build-Depends: cmake, debhelper-compat (= 13)
+Standards-Version: 4.5.1
+Homepage: https://ninja-build.org/
+Rules-Requires-Root: no
+Vcs-Git: https://github.com/maddjack2020/ninja-build.git
+Vcs-Browser: https://github.com/maddjack2020/ninja-build
+
+Package: ninja
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: auto-generated package by debmake
+ Ninja is a small build system with a focus on speed.
